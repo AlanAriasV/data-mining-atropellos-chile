@@ -208,5 +208,5 @@ st.markdown("""
 
 ### 🔗 Enlaces Rápidos
 
-Usa la barra lateral izquierda para navegar entre las diferentes secciones de la aplicación.
+Usa los botones en la parte superior para navegar entre las diferentes secciones de la aplicación.
 """)
