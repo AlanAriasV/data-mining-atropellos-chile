@@ -22,7 +22,7 @@ Sistema de Machine Learning para análisis y predicción de gravedad de atropell
 
 1. Clona el repositorio:
 ```bash
-git clone https://github.com/TU_USUARIO/data-mining-atropellos-chile.git
+git clone https://github.com/AlanAriasV/data-mining-atropellos-chile.git
 cd data-mining-atropellos-chile
 ```
 
@@ -44,18 +44,6 @@ source .venv/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
-
-## 🚀 Deployment en Streamlit Cloud
-
-### Modelos incluidos en el repositorio:
-- ✅ **CatBoost** (`cb_model.joblib`) - 9 MB
-- ✅ **Decision Tree** (`tree_model.joblib`) - 1 MB  
-- ⚠️ **Random Forest** (`rf_model.joblib`) - 123 MB (NO incluido por tamaño)
-
-### Para desplegar:
-1. La aplicación funciona perfectamente con **CatBoost** y **Decision Tree**
-2. Si necesitas Random Forest localmente, ejecuta: `python train_numeric_models.py`
-3. En Streamlit Cloud, usa el selector de modelos para elegir **Decision Tree** en lugar de Random Forest
 
 ## 📁 Estructura del Proyecto
 
