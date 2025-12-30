@@ -52,8 +52,8 @@ Thumbs.db
 # csv/
 # csv_preprocess/
 
-# Models
-models/
+# Models - Solo excluir el Random Forest (muy grande >100MB)
+models/numeric/rf_model.joblib
 
 # Logs
 *.log

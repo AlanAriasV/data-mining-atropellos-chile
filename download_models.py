@@ -34,8 +34,3 @@ def download_models():
                 print(f"   Por favor, sube el modelo a Google Drive y actualiza la URL")
 
     return True
-
-
-# Ejecutar al importar
-if __name__ != "__main__":
-    download_models()

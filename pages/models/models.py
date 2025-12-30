@@ -1,9 +1,13 @@
+import os
+
 import streamlit as st
 
 from pages.models.nominal import main as nominal_main
 from pages.models.numeric import main as numeric_main
+from download_models import download_models
 
-import download_models
+if not (os.path.exists("models/numeric/rf_model.joblib") and os.path.exists("models/numeric/tree_model.joblib") and os.path.exists("models/nominal/cb_model.joblib")):
+    download_models()
 
 # Crear navegación con botones tipo pills
 st.markdown("### 🤖 Modelos de Clasificación")
