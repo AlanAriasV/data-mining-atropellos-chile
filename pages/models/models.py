@@ -3,6 +3,8 @@ import streamlit as st
 from pages.models.nominal import main as nominal_main
 from pages.models.numeric import main as numeric_main
 
+import download_models
+
 # Crear navegación con botones tipo pills
 st.markdown("### 🤖 Modelos de Clasificación")
 
